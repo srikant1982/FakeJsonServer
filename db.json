@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Madhu P"
+    },
+    {
+      "id": 2,
+      "title": "rest-assured",
+      "author": "Srikant P"
+    },
+    {
+      "id": 3,
+      "title": "Cucumber",
+      "author": "Tarun B"
+    },
+    {
+      "id": "6",
+      "title": "API Testing Guide",
+      "author": "ExecuteAutomation"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Excellent Course",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Kohli"
+  },
+  "location": [
+      {
+        "id": 1,
+        "city": "chennai",
+        "country": "India",
+        "address": [
+          {
+            "street": "1st street",
+            "flat_no": "4A",
+            "pincode": 123312,
+            "type": "primary"
+          },
+          {
+            "street": "1st street",
+            "flat_no": "4A",
+            "pincode": 123312,
+            "type": "secondary"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "city": "Mckinney",
+        "country": "USA",
+        "address": {
+          "street": "Ferry Drive",
+          "flat_no": "100020",
+          "pincode": 77122
+        }
+
+      }
+    ]
+}
